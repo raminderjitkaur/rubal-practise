@@ -7,16 +7,17 @@ class AB{
       
 
       System.out.println("How do you want to pay");
-      String method = sc.nextLine();
+      String hello = sc.nextLine();
       
 
-      if(method.equalsIgnoreCase("cash")){
+      if(hello.equalsIgnoreCase("cash")){
           System.out.println("Cash accepted");
       }
       else{
           System.out.println("Sorry");
       }
       
+      //This is a added comment
 
 
     }
